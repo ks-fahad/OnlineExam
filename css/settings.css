@@ -1,0 +1,146 @@
+
+ol {
+    list-style: none;
+    border: 0;
+    width: 250px;
+    height:auto;
+    padding: 0;
+    margin: 0;
+    margin-top: 0;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    display: block;
+    border-right-width: 5px;
+    border-right-style: groove;
+}
+ol p{
+    padding: 5px;
+}
+
+ol li {
+    position: relative;
+    border: 0;
+    margin: 0;
+    padding: 15px;
+    justify-content: right;
+    font-size: larger;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+ol li a:hover{
+    border-color: green;
+}
+
+.enter_account {
+    height: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 80%;
+    color: black;
+    font-size: 25px;
+
+}
+
+.enter_account table {
+    position: relative;
+    width: 80%;
+    border: 5px;
+    border-radius: 40px;
+    border-width: 5px;
+    border-style: outset;
+    border-color: black;
+    background-color: azure;
+    background-size: cover;
+}
+
+td {
+    font-size: 20px;
+    width: auto;
+    text-align: left;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.wrong_info {
+    width: 95%;
+    background-color: rgb(167, 76, 76);
+    color: darkorange;
+    padding: 5px;
+    display: none;
+}
+
+.search input,.enter_account input,
+select,
+textarea {
+    width: 100%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: gray;
+    color: azure;
+    font-size: 15px;
+    cursor:default;
+}
+
+.enter_account button[type=submit],.search button[type=submit] {
+    width: 80%;
+    background-color: darkorange;
+    color: white;
+    padding: 14px 40px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.search input{
+    display: block;
+    border-radius: 0;
+}
+
+.search button[type=submit] {
+    width: 40px;
+    background-color:azure;
+    color: green;
+    padding: 14px auto;
+    margin:0;
+}
+
+.pre_massage {
+    position: relative;
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-right: 5px;
+}
+
+.people .action{
+    background-color: darkorange;
+}
+
+.enter_account span{
+    cursor: pointer;
+    color:darkorange;
+    font-size: large;
+}
+.enter_account button[type=submit]:hover,.search button[type=submit]:hover{
+    background-color: green;
+    color: azure
+}
+.active{
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-left: 10px;
+    margin-right: 10px;
+}

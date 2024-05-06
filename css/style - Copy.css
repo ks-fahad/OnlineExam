@@ -1,0 +1,153 @@
+.pname {
+    display: block;
+    text-align: center;
+    width: 100%;
+    color: black;
+}
+
+.name {
+    font-size: 20px;
+    justify-content: center;
+}
+
+.chat_box {
+    position: fixed;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    height: max-content;
+    padding-top: 100px;
+    background-color: none;
+}
+
+.chat ul {
+    height: auto;
+    display: flex;
+}
+
+.list {
+    position: relative;
+    overflow-y: scroll;
+    height: auto;
+    width: 100%;
+}
+
+
+.friend {
+    position: relative;
+    text-align: justify;
+    height: 100%;
+    width: 25%;
+    border-right-width: 2px;
+    border-right-style: groove;
+    border-right-color: blueviolet;
+}
+
+.chat {
+    position: relative;
+    max-height: calc(100%-300px);
+    width: 100%;
+}
+
+.message {
+    position: relative;
+    overflow-y: scroll;
+    height: auto;
+    width: auto;
+    background-image: url('https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?cs=srgb&dl=pexels-felix-mittermeier-956999.jpg&fm=jpg');
+    background-size: 1000px;
+}
+
+.chatheader {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    float: flex;
+}
+
+
+.people {
+    width: 320px;
+    height: 50px;
+    position: relative;
+    float: left;
+    display: flex;
+    color: black;
+}
+
+.profile {
+    overflow: hidden;
+}
+
+.profile img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+}
+
+.people:hover {
+    background-color: khaki;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.action {
+    float: right;
+    width: 20px;
+    position: relative;
+    border-radius: 50px;
+    padding: 5px;
+    background-color: auto;
+    color: auto;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.action div {
+    position: relative;
+    margin-top: -10px;
+    margin-left: 6px;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.receive {
+    display: flex;
+    float: left;
+    position: relative;
+    width: 90%;
+    margin: 5px;
+}
+
+.receive_m {
+    position: relative;
+    background-color: #fff;
+    color: black;
+    border-radius: 20px;
+    border-bottom-left-radius: 0;
+    padding: 10px;
+    margin: 3px;
+}
+
+.send {
+    float: right;
+    position: relative;
+    width: 90%;
+    margin: 5px;
+}
+
+.send_m {
+    float: right;
+    background-color: khaki;
+    border-radius: 20px;
+    border-bottom-right-radius: 0;
+    padding: 10px;
+    color: black;
+    margin: 3px;
+}

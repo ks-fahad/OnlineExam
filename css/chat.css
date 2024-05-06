@@ -1,0 +1,209 @@
+.profile_logo img {
+  margin-top: -5px;
+  position: relative;
+  height: 40px;
+  width: auto;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin: auto;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 180px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  padding-left: 0;
+}
+
+.dropdown-content a {
+  color: black;
+  font-weight: bold;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.menu_position {
+  margin: 0;
+}
+
+.search_people form {
+  position: relative;
+  top: 35%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  transition: all 1s;
+  width: 50px;
+  height: 50px;
+  background: white;
+  box-sizing: border-box;
+  border-radius: 25px;
+  border: 4px solid white;
+  padding: 5px;
+}
+
+.search_people form input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  ;
+  height: 42.5px;
+  line-height: 30px;
+  outline: 0;
+  border: 0;
+  display: none;
+  font-size: 1em;
+  border-radius: 20px;
+  padding: 0 20px;
+}
+
+.search_people form .fa {
+  box-sizing: border-box;
+  padding: 10px;
+  width: 42.5px;
+  height: 42.5px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 50%;
+  color: #07051a;
+  text-align: center;
+  font-size: 1.2em;
+  transition: all 1s;
+}
+
+.search_people form:hover,
+.hsearch_people form:valid {
+  width: 200px;
+  cursor: pointer;
+}
+
+.search_people form:hover input,
+.search_people form:valid input {
+  display: block;
+}
+
+.search_people form:hover .fa,
+.search_people form:valid .fa {
+  background: #07051a;
+  color: white;
+}
+
+
+.search_people a {
+  display: none;
+  position: absolute;
+  top: 70px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+.search_people form:valid a {
+  display: block;
+}
+
+.image-upload>input {
+  display: none;
+}
+
+.image-upload img {
+  width: 80px;
+  cursor: pointer;
+}
+
+
+.form_list {
+  position: absolute;
+  height: 100%;
+  margin-top: 100px;
+  padding-left: 20%;
+  padding-right: 20%;
+  width: auto;
+  background-size: cover;
+  background-image: url('https://img.freepik.com/premium-vector/online-live-test-exam-with-people-study-computer-desk-table-with-modern-isometric-style-illustration_82472-642.jpg?w=2000');
+}
+
+.form_link {
+  position: relative;
+  float: left;
+  display: block;
+  margin-top: 15px;
+  margin-right: 15px;
+  width: 250px;
+  height: 160px;
+  border-style: ridge;
+  border-width: 0.1px;
+  border-radius: 10px;
+  background-size: cover;
+  background-image: url('https://scontent.fdac140-1.fna.fbcdn.net/v/t39.30808-6/306517989_505795751459973_3334982128868380228_n.jpg?stp=c80.0.206.206a_dst-jpg_p206x206&_nc_cat=111&ccb=1-7&_nc_sid=da31f3&_nc_ohc=xzdN8S3KC7AAX_6gVGc&_nc_ht=scontent.fdac140-1.fna&oh=00_AT-Htx51RdE4c-3ORHzHKzCw0VtMGqZYo-_yD1Flayx6pw&oe=63224BED');
+  background-color:rgb(75, 72, 72);
+}
+.form_link:hover{
+  cursor: pointer;
+  border-color: black;
+  box-shadow: 2px 2px black;
+
+}
+
+.form_top,
+.form_bottom {
+  position: relative;
+  height: 50px;
+  width: 100%;
+}
+
+.form_top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.form_bottom {
+  display: flex;
+  margin-top: 60px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color:burlywood;
+  border: 2px;
+  overflow: hidden;
+}
+
+.set_form {
+  position: relative;
+  float: right;
+}
+
+.form_name {
+  width: 1800px;
+  padding: 5px;
+  position: relative;
+  float: left;
+}
+
+.share_form {
+  width: 60px;
+  padding-right: 10px;
+  margin-top: 10px;
+  position: relative;
+  float: right;
+}
+
+.share_form button {
+  border-radius: 10px;
+  background-color: chocolate;
+  padding-right: 5px;
+  font-size: large;
+}

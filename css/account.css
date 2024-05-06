@@ -1,0 +1,80 @@
+.account_body {
+    display: flex;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    padding-top: 150px;
+    border-top-style: groove;
+    border-top-width: 5px;
+}
+
+.profile_photo,
+.link_img,.loginView {
+    position: relative;
+    height: 100%;
+    width: 40%;
+    color: #fff;
+    text-align: center;
+    color: black;
+    padding-top: 100px;
+}
+
+.link_img {
+    width: 200px;
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+.profile_photo img,
+.link_img img,.loginView img {
+    position: relative;
+    height: 150px;
+    width: auto;
+    border-radius: 80px;
+}
+.loginView img{
+    margin-top: -400px;
+    height: auto;
+    width: 100%;
+    border-radius: 0;
+}
+
+.link_img h2 {
+    margin-top: -50px;
+}
+
+.link_img a img {
+    width: 60%;
+    height: 60%;
+    padding: 5px;
+    cursor: pointer;
+    margin-top: -200px;
+}
+
+.profile_details {
+    padding: 0;
+    position: relative;
+    height: 100%;
+    width: 50%;
+    color: #fff;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    border-width: 5px;
+    border-color: black;
+    border-style: groove;
+    border-radius: 20px;
+}
+
+.profile_details .pname {
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+    padding-right: 2px;
+}
+.account_body table{
+    margin-bottom: 100px;
+}
+.loginView{
+    margin-top: 200px;
+}

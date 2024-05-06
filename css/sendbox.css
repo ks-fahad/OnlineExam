@@ -1,0 +1,59 @@
+
+.sendbox {
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    height: 5%;
+    display: flex;
+}
+.sendbox input{
+    color: azure;
+    background-color: black;
+}
+.sendbox input,
+.sendbox select,
+.sendbox span.button {
+    position: relative;
+    margin: 0;
+    width: 80px;
+    height:auto;
+    border: none;
+}
+.sendbox span.button {
+    cursor: pointer;
+    font-size: 30px;
+    color:black;
+    background-color:khaki;
+}
+
+.sendbox input[type=text] {
+    width: 75%;
+}
+
+.sendbox input[type=file] {
+    padding-top: 10px;
+    width: 120px;
+}
+
+.option_emoji {
+    position: relative;
+    display: flex;
+    background-color:black;
+    height: auto;
+  }
+  
+  .option_emoji span {
+    position: relative;
+    margin: 2px;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  .emoji-content{
+    display: none;
+    position: relative;
+    font-size: 25px;
+  }
+  
+  .option_emoji:hover .emoji-content {
+    display: flex;
+  }
